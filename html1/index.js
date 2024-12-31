@@ -169,4 +169,14 @@
 var p ="heqjbdhcbhvdshabcduheuf";
 var s ="dsh";
 var answer=p.search(s);
-console.log(answer);git 
+console.log(answer);
+
+const result=window.document.getElementById('hello');
+
+console.log(result.textContent);
+result.textContent = "hello this world for this code "
+console.log(result.textContent);
+result.style.fontSize = "50px";
+result.style.textTransform="uppercase";
+result.style.fontWeight = "900" ;
+
